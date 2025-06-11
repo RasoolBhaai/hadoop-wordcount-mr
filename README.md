@@ -1,2 +1,21 @@
 # hadoop-wordcount-mr
-This Project was used for count the number of words and it's occerence count in a key-value pair. Used for Large Scale Data sets (ex: logfiles, any text file) to proccess parllel in a distrubuted system.)
+Java MapReduce WordCount Program on Hadoop
+
+# WordCount - MapReduce in Java
+
+This project demonstrates a simple **WordCount** job written in Java using **Hadoop MapReduce**.
+
+## 📁 Project Structure
+
+- `WordCount.java` – MapReduce logic
+- `input/sample.txt` – Sample text file for testing
+- `build/wordcount.jar` – (Optional) Pre-built JAR
+- `run.sh` – Shell script to compile and run the job
+
+## 🛠 How to Compile
+
+```bash
+hadoop com.sun.tools.javac.Main WordCount.java
+jar cf wordcount.jar WordCount*.class
+
+
